@@ -1,0 +1,61 @@
+{
+  "profile": {
+    "name": "Atharv Joshi",
+    "role": "Associate Software Engineer (GenAI)",
+    "company": "Benchmark IT Solutions",
+    "location": "Pune, India",
+    "email": "joshiatharv67@gmail.com",
+    "linkedin": "linkedin.com/in/atharv-avinash-joshi-9b5765228",
+    "github": "github.com/atharv2001j",
+    "summary": "Atharv Joshi is an Associate Software Engineer (GenAI) at Benchmark IT Solutions, Pune, with 1.5+ years of experience building production GenAI systems: RAG pipelines, autonomous multi-agent systems using LangChain, LangGraph, and CrewAI, and FastAPI backends backed by vector databases."
+  },
+  "experience": [
+    {
+      "company": "Benchmark IT Solutions",
+      "role": "Associate Software Engineer (GenAI)",
+      "period": "Nov 2024 - Present",
+      "details": "At Benchmark IT Solutions in Pune, Atharv architected end-to-end GenAI solutions in Python, cutting manual processing time by 45% across core business workflows. He engineered RAG pipelines for document validation using Qdrant and FAISS as vector stores, achieving 92% accuracy and reducing errors by 60%. He built and deployed production-grade RESTful APIs with FastAPI and Flask, handling 500+ daily requests at 99.5% uptime. He orchestrated autonomous AI agents and multi-agent workflows using LangChain, LangGraph, and CrewAI, scaling operational capacity by 35%. He scheduled asynchronous background tasks via Celery with Redis as message broker, ensuring zero workflow bottlenecks at scale, and deployed OpenAI GPT-4 and Google Gemini APIs for real-time AI features, enhancing system response times by 50%. He also mentored AI/ML interns and partnered with cross-functional teams to prototype and ship AI-powered POCs across multiple client engagements. Tech used: Python, FastAPI, Flask, LangChain, LangGraph, CrewAI, Qdrant, FAISS, Celery, Redis, OpenAI GPT-4, Gemini."
+    },
+    {
+      "company": "HESA-ONE LLP",
+      "role": "AI Engineer Intern",
+      "period": "Sept 2023 - Jun 2024",
+      "details": "As an intern at HESA-ONE LLP in Nashik, Atharv constructed an industry-focused CycleGAN generative model that synthesized 5,000+ realistic images with an 85% realism score. He streamlined the full ML pipeline — data collection, preprocessing, model training, fine-tuning, and evaluation — scaling performance by 22% and reducing training time by 30%. Tech used: Python, TensorFlow, PyTorch, CNN, CycleGAN, Data Augmentation."
+    }
+  ],
+  "projects": [
+    {
+      "name": "AI-Powered Packaging Document Validation System",
+      "details": "Atharv delivered an AI validation system processing 500+ packaging documents daily at 94% accuracy, ensuring textual and visual compliance with approved design standards. He used Vision Language Models (VLMs) and Azure Custom Vision to verify logo placement, icon alignment, and visual element positioning, cutting manual review by 70%. He mechanized validation workflows via OpenCV and Azure AI, scaling operational efficiency by 55% and eliminating 80% of manual errors. He integrated Celery task queues with a Redis broker to process validation jobs asynchronously for non-blocking pipeline execution at scale, and configured SMTP-based programmatic email notifications to dispatch validated results to department heads, reducing reporting delays by 65%. He tracked LLM pipeline quality using Langfuse for observability, tracing, and real-time performance monitoring in production, and containerized the full application using Docker with CI/CD via GitHub Actions. Tech: Python, OpenCV, VLM, Azure AI, Azure Custom Vision, Qdrant, Redis, Celery, SMTP, Langfuse, FastAPI, Docker."
+    },
+    {
+      "name": "Asgard World - AI-Powered Job Portal",
+      "details": "Asgard World is an AI-driven job portal where Atharv built CV parsing, cover letter generation, and personalized job matching for 1,000+ candidates at an 85% relevance score. He deployed a RAG pipeline with LangChain and AWS OpenSearch for semantic profile-to-job matching, advancing search accuracy by 85%. He integrated Temporal for durable workflow orchestration, managing long-running AI tasks including CV analysis and job recommendations with guaranteed execution and fault tolerance. He incorporated OpenAI's real-time API for AI-driven interview simulations, enhancing candidate preparation experience, and designed a scalable FastAPI backend on AWS Lambda with Docker for a cost-efficient serverless architecture. Tech: LangChain, OpenAI GPT-4, Gemini, Temporal, AWS Lambda, AWS OpenSearch, FastAPI, PostgreSQL, Qdrant, RAG, Docker."
+    },
+    {
+      "name": "Facial Age Progression using CycleGAN",
+      "details": "Atharv designed a deep learning model for facial aging simulation using CycleGAN, achieving 78% accuracy while preserving facial characteristics with minimal distortion. He applied data augmentation and preprocessing pipelines, boosting model accuracy by 18% and reducing overfitting by 25%. Tech: Python, TensorFlow, PyTorch, CNN, CycleGAN, Data Augmentation."
+    }
+  ],
+  "skills": {
+    "Programming Languages": ["Python", "C++", "C"],
+    "Generative AI & LLMs": ["LLMs", "RAG", "Generative AI (GenAI)", "Prompt Engineering", "Function Calling", "Few-Shot Prompting", "Chain-of-Thought Reasoning", "Embeddings", "Semantic Search", "MCP"],
+    "AI Agents & Orchestration": ["Autonomous AI Agents", "Multi-Agent Systems", "LangChain", "LangGraph", "CrewAI", "Temporal"],
+    "ML/DL": ["Machine Learning", "Deep Learning", "NLP", "Computer Vision", "GANs", "Supervised Learning", "Unsupervised Learning"],
+    "Frameworks & Libraries": ["FastAPI", "Flask", "TensorFlow", "PyTorch", "OpenCV", "Scikit-learn", "Gradio", "Streamlit"],
+    "Vector Databases": ["Qdrant", "FAISS", "Pinecone", "ChromaDB", "AWS OpenSearch"],
+    "AI APIs & Platforms": ["OpenAI GPT-4", "Google Gemini", "Azure OpenAI Service", "Anthropic Claude", "Vertex AI"],
+    "Async/Task Queue": ["Celery", "Redis (Message Broker)", "SMTP"],
+    "Cloud & DevOps": ["AWS Lambda", "AWS S3", "Azure AI", "Azure Custom Vision", "Docker", "CI/CD"],
+    "Databases": ["MySQL", "PostgreSQL", "MongoDB", "Redis"],
+    "Monitoring & Observability": ["Langfuse", "LLM Tracing", "AI Pipeline Monitoring"],
+    "Developer Tools": ["Git", "GitHub", "JIRA", "Cursor AI", "Windsurf", "VS Code", "Claude Code"]
+  },
+  "education": {
+    "institution": "Sanjivani College of Engineering, Kopargaon",
+    "degree": "B.Tech, Computer Engineering",
+    "period": "2020 - 2024",
+    "cgpa": "9.05 / 10",
+    "details": "Atharv Joshi completed his B.Tech in Computer Engineering at Sanjivani College of Engineering, Kopargaon, from 2020 to 2024, graduating with a CGPA of 9.05 out of 10."
+  }
+}

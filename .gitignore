@@ -1,0 +1,25 @@
+# Node
+node_modules/
+frontend/dist/
+frontend/.vercel/
+frontend/*.tsbuildinfo
+
+# Python
+__pycache__/
+*.pyc
+backend/.venv/
+backend/venv/
+backend/data/faiss_index/
+
+# Env
+.env
+.env.local
+frontend/.env
+backend/.env
+
+# OS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/

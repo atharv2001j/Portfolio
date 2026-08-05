@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-bg text-text antialiased;
+}
+
+::selection {
+  @apply bg-accent/30 text-text;
+}
+
+.section-line {
+  @apply relative;
+}
+
+.section-line::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -2.5rem;
+  width: 1px;
+  height: 2.5rem;
+  background: linear-gradient(to bottom, transparent, theme("colors.accent") 60%, transparent);
+  opacity: 0.4;
+}
+
+.mono-tag {
+  @apply font-mono text-xs tracking-tight;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: theme("colors.border");
+  border-radius: 3px;
+}
