@@ -1,19 +1,25 @@
 {
   "profile": {
     "name": "Atharv Joshi",
-    "role": "Associate Software Engineer (GenAI)",
-    "company": "Benchmark IT Solutions",
+    "role": "Agentic AI Developer",
+    "company": "Capgemini",
     "location": "Pune, India",
     "email": "joshiatharv67@gmail.com",
     "linkedin": "linkedin.com/in/atharv-avinash-joshi-9b5765228",
     "github": "github.com/atharv2001j",
-    "summary": "Atharv Joshi is an Associate Software Engineer (GenAI) at Benchmark IT Solutions, Pune, with 1.5+ years of experience building production GenAI systems: RAG pipelines, autonomous multi-agent systems using LangChain, LangGraph, and CrewAI, and FastAPI backends backed by vector databases."
+    "summary": "Atharv Joshi is an Agentic AI Developer at Capgemini, Pune, with experience building production GenAI systems: RAG pipelines, autonomous multi-agent systems using LangChain, LangGraph, and CrewAI, and FastAPI backends backed by vector databases."
   },
   "experience": [
     {
+      "company": "Capgemini",
+      "role": "Agentic AI Developer",
+      "period": "Aug 2026 - Present",
+      "details": "At Capgemini, Atharv is working on building AI agents, integration of GenAI solutions to automate workflows, and building production-grade applications."
+    },
+    {
       "company": "Benchmark IT Solutions",
       "role": "Associate Software Engineer (GenAI)",
-      "period": "Nov 2024 - Present",
+      "period": "Nov 2024 - Aug 2026",
       "details": "At Benchmark IT Solutions in Pune, Atharv architected end-to-end GenAI solutions in Python, cutting manual processing time by 45% across core business workflows. He engineered RAG pipelines for document validation using Qdrant and FAISS as vector stores, achieving 92% accuracy and reducing errors by 60%. He built and deployed production-grade RESTful APIs with FastAPI and Flask, handling 500+ daily requests at 99.5% uptime. He orchestrated autonomous AI agents and multi-agent workflows using LangChain, LangGraph, and CrewAI, scaling operational capacity by 35%. He scheduled asynchronous background tasks via Celery with Redis as message broker, ensuring zero workflow bottlenecks at scale, and deployed OpenAI GPT-4 and Google Gemini APIs for real-time AI features, enhancing system response times by 50%. He also mentored AI/ML interns and partnered with cross-functional teams to prototype and ship AI-powered POCs across multiple client engagements. Tech used: Python, FastAPI, Flask, LangChain, LangGraph, CrewAI, Qdrant, FAISS, Celery, Redis, OpenAI GPT-4, Gemini."
     },
     {

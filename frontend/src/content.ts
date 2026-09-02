@@ -3,8 +3,8 @@
 
 export const profile = {
   name: "Atharv Joshi",
-  role: "Associate Software Engineer (GenAI)",
-  company: "Benchmark IT Solutions",
+  role: "Agentic AI Developer",
+  company: "Capgemini",
   location: "Pune, India",
   tagline: "Production GenAI systems builder",
   subtagline:
@@ -41,10 +41,23 @@ export type Experience = {
 
 export const experiences: Experience[] = [
   {
+    id: "capgemini",
+    company: "Capgemini",
+    role: "Agentic AI Developer",
+    period: "Aug 2026 — Present",
+    location: "Pune, India",
+    bullets: [
+      {
+        text: "Working on building AI agents, integration of GenAI solutions to automate workflows, and building production-grade applications.",
+      },
+    ],
+    tags: ["GenAI", "AI Agents", "Python"],
+  },
+  {
     id: "benchmark-it",
     company: "Benchmark IT Solutions",
     role: "Associate Software Engineer (GenAI)",
-    period: "Nov 2024 — Present",
+    period: "Nov 2024 — Aug 2026",
     location: "Pune, India",
     bullets: [
       {
